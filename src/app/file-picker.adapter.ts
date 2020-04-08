@@ -32,7 +32,7 @@ export class DemoFilePickerAdapter extends FilePickerAdapter {
           if (res.type === HttpEventType.Response) {
          this._uw.file=res.body.result.files.file;
          // console.log("Nombre: ",this._uw.file[0].name);
-         this._uw.images.push('http://192.168.1.2:80/imgApi2/server/local-storage/tixsImages/'+this._uw.file[0].name);
+         this._uw.images.push('https://db.andesproadventures.com:80/imgPrasi/server/local-storage/tixsImages/'+this._uw.file[0].name);
           return res.body.id.toString();
        
         } else if (res.type ===  HttpEventType.UploadProgress) {
