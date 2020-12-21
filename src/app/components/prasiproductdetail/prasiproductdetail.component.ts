@@ -12,7 +12,7 @@ import { TixInterface } from '../../models/tix-interface';
 import { UserWService } from "../../services/user-w.service";
 import { ValidationError } from '../../../assets/file-picker/src/lib/validation-error.model';
 
-declare var $: any;
+
 @Component({
   selector: 'app-prasiproductdetail',
   templateUrl: './prasiproductdetail.component.html',

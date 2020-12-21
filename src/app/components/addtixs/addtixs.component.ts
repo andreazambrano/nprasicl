@@ -83,7 +83,7 @@ public user : UserInterface ={
     password:""
   };
 
-  public card : CardInterface ={
+public card : CardInterface ={
       userd:"",
       type:"",
       phone:"",
